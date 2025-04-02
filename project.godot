@@ -10,6 +10,11 @@ config_version=5
 
 [application]
 
-config/name="godot-project-template"
+config/name="Rocket Launching"
+run/main_scene="res://launching_field.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[editor]
+
+movie_writer/movie_file="C:/Users/ben/OneDrive/Desktop/blueinno/course/531/GoDot Game Dev/rocket-launching/project_demo.avi"
